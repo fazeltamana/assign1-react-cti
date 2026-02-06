@@ -1,0 +1,20 @@
+.app {
+  padding: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f9fafb;
+  min-height: 100vh;
+}
+
+.title {
+  margin-bottom: 32px;
+}
+
+/* Center the grid */
+.badge-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 280px);
+  gap: 28px;
+
+  margin: 0 auto;     /* this centers the grid */
+  width: fit-content;
+}
